@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 90%);
+    
+}
+.container{
+    width: 250px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.container input{
+    margin-top: 15px;
+}
+#num{
+    width: 40%;
+}
+
+button{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 4px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: hsl(0, 100%, 66%);
+}
+button:active{
+    background-color: hsl(0, 94%, 79%);
+}
+#result{
+    margin-top: 10px;
+}
